@@ -1,0 +1,18 @@
+.cust-navbar-brand {
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white !important;
+    font-weight: bold;
+    max-height: 100%;
+}
+
+custom-navbar-links {
+    color: white !important;
+}
+
+a {
+    color: white !important;
+}
