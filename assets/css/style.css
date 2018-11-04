@@ -102,3 +102,7 @@ body {
     font-size: 20px;
 }
 
+.message-text-area {
+    resize: none;
+}
+
