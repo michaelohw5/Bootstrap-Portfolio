@@ -8,7 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Contact</title>
+    <title>Home</title>
 </head>
 
 <body>
@@ -17,9 +17,11 @@
             <a class="navbar-brand cust-navbar-brand pt-md-2 pb-md-2" href="./index.html">Michael Oh</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-navicon"></i>
+                </span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse collapse-button custom-toggler" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link custom-navbar-links" href="./index.html">About <span class="sr-only">(current)</span></a>
@@ -35,18 +37,36 @@
             <!--CLOSE NAVBAR LIST DIV-->
         </div>
     </nav>
-    <!--CLOSE NAVBAR CONTAINER-->
-    <!-- BEGINNING BODY CONTAINER -->
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid port-container">
+        <!--CLOSE NAVBAR CONTAINER-->
+        <!-- BEGINNING BODY CONTAINER -->
+        <div class="container body-container">
             <div class="jumbotron my-jumbotron">
-                <h1 class="display-4">Contact</h1>
+                <h1 class="display-6">Contact</h1>
                 <hr class="my-4">
-                <p class="lead">contact page</p>
+                <!-- NAME/EMAIL FIELDS-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="formGroupName">Full Name</label>
+                            <input type="text" class="form-control" id="formGroupNameInput" placeholder="Enter name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="formGroupEmail">Email address</label>
+                            <input type="email" class="form-control" id="formGroupEmailInput" aria-describedby="emailInput"
+                                placeholder="Enter email">
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="row">
+
+                </div>
             </div>
         </div>
     </div>
-
     <div class="row footer clear-time">
         <div class="col-md-12 copyright-text">
             &copy; COPYRIGHT
