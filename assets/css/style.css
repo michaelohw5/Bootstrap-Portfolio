@@ -1,18 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .cust-navbar-brand {
-    margin: auto;
-    padding-right: 50px;
-    padding-left: 50px;
+    /* margin: auto; */
+    /* padding-right: 50px;
+    padding-left: 50px; */
     padding-top: 0;
     padding-bottom: 0;
+    /* margin: 0 auto !important; */
     color: white !important;
     font-weight: bold;
     max-height: 100%;
+    /* float:left; */
+}
+/* 
+@media only screen and (max-width: 640px) {
+    .cust-navbar-brand {
+        margin-left: 10px;
+    }
+} */
+
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: grey;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.cust-navbar {
+  display: inline-block;
+  border-bottom: 10px solid teal;
+  width: 100%;
 }
 
-custom-navbar-links {
+.custom-navbar-links {
+    clear: both;
+    margin-left: 40%;
     color: white !important;
 }
 
-a {
-    color: white !important;
+.placeholder-img {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+.my-jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: teal;
+    border-width: 5px;
+}
+
+.clear-time {
+    clear: both;
+}
+
+.copyright-text {
+    text-align: center;
+    background-color: black;
+    padding: 10px 0px;
+    border-top: 10px;
+    border-top-style: solid;
+    border-color: teal;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card {
+    border-style: solid;
+    border-color: teal;
+    border-width: 5px;
+}
+
+.port-jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-style: solid;
+    border-color: teal;
+    border-width: 5px;
+}
+
+.container-fluid {
+    background-image: url("../images/background.png");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.port-container {
+    padding-top: 5%;
 }
